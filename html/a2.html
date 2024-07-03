@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk</title>
+    <link rel="stylesheet" href="../css/style2.css">
+    <script src="../js/a2.js"></script>
+</head>
+<body style="background-color:whitesmoke;">
+    <header>
+        <nav>
+            <img src="../images.png" alt="logo" class="logo" style="width: 100px; height: 100px;" >
+            <a href="../html/a1.html" class="site-name"><P>CYBERPUNK 2077</p></a>
+            <a href="../html/a2.html"><p style="font-size: xx-large;">CONTACT</p></a>
+         </nav>
+    </header>
+    <div class="container">
+        <div class="container" style="text-align: center; background-color: rgb(139, 59, 142);">
+            WELCOME TO CYBERPUNK 2077
+        </div><br>
+        <div>
+            **Cyberpunk games**, like "Cyberpunk 2077," immerse players in futuristic, dystopian worlds where advanced technology and cybernetic enhancements are commonplace. Set in neon-lit cities dominated by powerful corporations, these games explore themes of hacking, corporate espionage, and the ethical implications of technology. Players navigate a complex society where the line between human and machine blurs, reflecting on the potential dark side of technological advancement.
+        </div><br>
+        <div>
+            FORM
+            <br><br>
+            <form action = "javascript:submitForm()" onSubmit = "return validate()">
+                <table class="table" >
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" id="name" name="name" placeholder="e.g PRITAM" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="Required" required><span id="emailerr"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label for="genre">Favorite genre:</label></td>
+                        <td><input list="genre" name="genre" id="genre" placeholder="tap to see" required></td>
+                    </tr>
+                        <datalist id="genre">
+                            <option value="horror"></option>
+                            <option value="comedy"></option>
+                            <option value="fantasy"></option>
+                            <option value="fiction"></option>
+                            <option value="mystery"></option>
+                        </datalist>
+                </table>
+                <br>
+                <input type="checkbox" id="myCheckbox" name="myCheckbox" checked value="yes" required>
+                <label for="myCheckbox">Subscribe  to get updated about the new episodes.</label>
+                <br><br>
+                <input type="submit" name="submit" value="submit" style="align-items: center;" >
+
+            </form>
+           
+            
+        </div>
+    
+
+    </div>
+    <div class="footer-text">
+		<p>All rights are reserved</p>
+	</div>
+</body>
+</html>
